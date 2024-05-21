@@ -79,7 +79,7 @@ jobs:
           role-session-name: gha-session
           aws-region: us-east-1
       - name: PR review
-        uses: tmokmss/bedrock-pr-reviewer@main
+        uses: tandia-pe/bedrock-pr-reviewer@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -229,7 +229,7 @@ jobs:
           role-session-name: gha-session
           aws-region: us-east-1
       - name: PR review
-        uses: tmokmss/bedrock-pr-reviewer@main
+        uses: tandia-pe/bedrock-pr-reviewer@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
